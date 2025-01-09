@@ -17,7 +17,9 @@
         </div>
         <div class="container2">
             <div class="text-section">
-                <p>I'm very well aware of my dreams and I am chasing after it like a cat chases after a mouse. <br> One day I will be successfull, I know that!</p>
+                <h1>Dream Store</h1>
+                <h3>The only place where you can sell your dreams confidently!</h3>
+                <p>Are you well aware of your dreams and chasing after them like a cat chases after a mouse? <br> Then get ready to sell your precious dreams!</p>
             </div>
             <div class="form-section">
                 <form class="form" action="#" method="post">
@@ -38,13 +40,13 @@
                         <label for="phone_number">PHONE NUMBER</label>
                         <input type="number" id="phone_number" name="phone_number">
                     </div>
-                    <div class="input-label">
+                    <div class="input-label pass">
                         <label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password" name="password">
+                        <input type="password" id="user_password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </div>
-                    <div class="input-label">
+                    <div class="input-label pass-conf">
                         <label for="user_password_confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="user_password_confirm" name="password_confirm">
+                        <input type="password" id="user_password_confirm" name="password_confirm" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                     </div>
                 </form>
             </div>
